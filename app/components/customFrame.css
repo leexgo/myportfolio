@@ -1,0 +1,15 @@
+
+    .image-frame {
+      position: relative;
+      animation: float 2s ease-in-out infinite alternate;
+      background-color: transparent;
+    }
+
+    @keyframes float {
+      0%{
+        top: 0;
+      }
+      100%{
+        top:10px
+      }
+    }
